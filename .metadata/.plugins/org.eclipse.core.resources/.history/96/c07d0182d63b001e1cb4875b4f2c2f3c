@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="Ex03_Login">
+		ID : <input type="text" name="ID">
+		PW : <input type="text" name="PW">
+		<input type="submit" value="login">
+		
+	</form>
+</body>
+</html>
