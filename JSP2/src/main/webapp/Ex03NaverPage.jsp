@@ -8,7 +8,9 @@
 </head>
 <body>
 
-	<%
+	<%	
+		// 서버가 다시 접속해야될 url을 준다
+		// 접속해야될 url은 sendRedirect("url")
 		response.sendRedirect("http://www.naver.com");
 	%>
 

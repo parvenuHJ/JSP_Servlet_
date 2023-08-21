@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	<form action="Ex04SelectURL.jsp">
+		<select name="url">
+			<option>네이버</option>
+			<!-- 다음은 value 값 써서 주소를 넘겨버림 => jsp 파일에서 response.sendRedirect(url);로만 받으면 이동됨-->
+			<option value="http://www.daum.net">다음</option>
+			<option>구글</option>
+			<option>스마트인재개발원</option>
+			<option>호두아빠</option>
+		</select>
+		<input type="submit" value="이동">
+		
+	</form>
+
+
+
+</body>
+</html>
