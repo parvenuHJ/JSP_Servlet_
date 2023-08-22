@@ -607,3 +607,24 @@ java.lang.IllegalArgumentException: Document path **path unknown** must be relat
 	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
 	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
 	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-21 22:28:30.172
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-21 22:29:37.274
+!MESSAGE No repository found at http://dl.bintray.com/testng-team/testng-p2-release/.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2023-08-22 12:15:00.413
+!MESSAGE Could not publish server configuration for Tomcat v9.0 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2023-08-22 12:15:00.413
+!MESSAGE Multiple Contexts have a path of "/MemberSystem".
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2023-08-22 12:15:00.882
+!MESSAGE Could not publish server configuration for Tomcat v9.0 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2023-08-22 12:15:00.882
+!MESSAGE Multiple Contexts have a path of "/MemberSystem".
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2023-08-22 12:15:14.576
+!MESSAGE Could not publish server configuration for Tomcat v9.0 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2023-08-22 12:15:14.576
+!MESSAGE Multiple Contexts have a path of "/MemberSystem".
