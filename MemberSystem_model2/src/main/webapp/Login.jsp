@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<form action="LoginService.jsp" method="post">
+	<form action="LoginService" method="post">
 		<h2>로그인</h2>
 		ID : <input type="text" name="id"><br>
 		PW : <input type="password" name = "pw"><br>

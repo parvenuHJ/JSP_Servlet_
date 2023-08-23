@@ -10,8 +10,18 @@
 <!-- Create Read Update Delete : CRUD (개발자가 사용하는 용어)
 			어떤 페이지든 CRUD는 있어야한다  -->
 			
-	<% String id = request.getParameter("id"); 
-		if (id!= null){%>
+	<% 
+	String nick = request.getParameter("nick");
+	if(nick != null){%>
+		<%=nick %>님 회원가입 성공!
+		
+		<%} %>
+		
+	<%
+	
+	
+	String id = (String)session.getAttribute("id");
+	if (id!= null){%>
 			<%=id %>님 환영합니다~
 		<% }
 	%>

@@ -12,8 +12,7 @@
 		<h2>회원목록보기</h2>
 		ID : <input type="text" name="id"><br>
 		PW : <input type="password" name = "pw"><br>
-		NICK : <input type="text" name="nick">
-		<input type="submit" value="회원가입">
+		<input type="submit" value="회원목록보기">
 	
 	</form>
 </body>

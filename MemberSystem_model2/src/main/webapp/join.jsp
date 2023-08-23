@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+			<!-- 서블릿 -> "JoinService"  매핑 값만 넣어주면됨 -->
 	<form action="JoinService" method="post">
 		<h2>회원가입</h2>
 		ID : <input type="text" name="id"><br>

@@ -6,6 +6,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -101,7 +102,12 @@ public class JoinService extends HttpServlet {
 			
 			if(cnt > 0){
 				System.out.println("회원가입 성공!");
-				response.sendRedirect("main.jsp"); // 동일한 폴더안에 있어서 상대경로로 안적었음
+				
+				// forwarding방식으로 
+				RequestDispatcher rd = request.getRequestDispatcher("main.jsp");
+				request.setAttribute("nick", nick);
+				rd.forward(request, response);
+				//response.sendRedirect("main.jsp"); 
 			}else{
 				System.out.println("회원가입 실패!");
 				response.sendRedirect("join.jsp");

@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action="updateService.jsp" method="post">
+<form action="UpdateService" method="post">
 		<h2>회원정보 수정</h2>
 		ID : <input type="text" name="id"><br>
 		PW : <input type="password" name = "pw"><br>
