@@ -7,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="join.jsp">회원가입</a>
-	<a href="login.jsp">로그인</a>
 
 </body>
 </html>
