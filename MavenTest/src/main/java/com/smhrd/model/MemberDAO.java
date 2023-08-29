@@ -12,9 +12,9 @@ public class MemberDAO {
 
 	public int join(MemberDTO dto) {
 
-		SqlSession session =  sqlSessionFactory.openSession(true);
+		SqlSession session =  sqlSessionFactory.openSession(true); // true의 역할 -> auto commit
 		
-		int cnt = session.insert("join", dto);
+		int cnt = session.insert("join", dto); // 경로 : join
 		
 		session.close();
 		
@@ -23,7 +23,7 @@ public class MemberDAO {
 
 	public MemberDTO login(MemberDTO dto) {
 
-		SqlSession session =  sqlSessionFactory.openSession(true);
+		SqlSession session =  sqlSessionFactory.openSession(true); 
 		
 		MemberDTO info = session.selectOne("login", dto);
 		

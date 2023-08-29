@@ -5,6 +5,7 @@
 <mapper namespace="com.smhrd.db.mapper">
    <!-- 내가 사용항 SQL문장을 작성하는 곳 -->
    <insert id="join" parameterType="com.smhrd.model.MemberDTO">
+   <!-- com.smhrd.db.mapper(경로).join 을 그냥 join (id)값만 적어준것  -->
    		INSERT INTO WEBMEMBER VALUES(#{id},#{pw},#{nick})
    
    </insert>
