@@ -4732,14 +4732,4 @@
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
 
-    <servlet>
-       <servlet-name>UrlMapping</servlet-name>
-       <servlet-class>com.smhrd.servlet.Ex00CreateServlet</servlet-class>
-    </servlet>
-    
-   <servlet-mapping>
-      <servlet-name>UrlMapping</servlet-name>
-      <url-pattern>/Mapping</url-pattern>
-   </servlet-mapping>
-
 </web-app>
